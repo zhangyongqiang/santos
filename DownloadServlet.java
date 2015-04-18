@@ -26,6 +26,9 @@ public class DownloadServlet extends HttpServlet {
      */
     private final String userFileDir = "F:\\userFileDir\\";
 
+    /**
+     * Default buffer size
+     */
     private final int bufferSize = 1024;
 
     @Override
